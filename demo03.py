@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+from streamlit_chat import message
 
 # Load and clean Excel data
 @st.cache_data
